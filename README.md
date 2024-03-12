@@ -37,14 +37,16 @@ Step-by-Step Process:
   TF-IDF (Term Frequency-Inverse Document Frequency) transformation is applied to normalize the bag-of-words representation.
   TfidfTransformer from scikit-learn is used for this purpose.
   
-7. Model Training:
+7.Model Training:
 
   Multinomial Naive Bayes classifier is chosen as the machine learning algorithm.
   The model is trained on the TF-IDF transformed data along with the corresponding categories.
+  
 8.Model Evaluation:
 
   Accuracy of the trained model is calculated using the accuracy_score function from scikit-learn.
   The project achieves an accuracy of 96% in classifying emails as spam or not spam.
+  
 9.Prediction Function:
 
 A function predict_spam_or_not is defined to predict whether a given message is spam or not.
